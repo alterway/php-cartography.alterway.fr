@@ -7,8 +7,10 @@ Open Source tool to get a global vision of the PHP ecosystem
 1. Clone this project
 2. Install graphviz
 
+    ```
     apt-get install graphviz
-
+    ```
+    
 ## Update, add or remove any element
 
 Please modify the file `cartography.xml`
