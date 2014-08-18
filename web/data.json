@@ -1,0 +1,2696 @@
+{
+    "name": "PHP",
+    "children": [
+        {
+            "name": " Dependency Management",
+            "children": [
+                {
+                    "name": "Composer](http:\/\/getcomposer.org\/)\/[Packagist",
+                    "uri": "http:\/\/packagist.org\/",
+                    "description": "A package and dependency manager.",
+                    "size": 2000
+                },
+                {
+                    "name": "Composer Installers",
+                    "uri": "https:\/\/github.com\/composer\/installers",
+                    "description": "A  multi framework Composer library installer.",
+                    "size": 2000
+                },
+                {
+                    "name": "Pickle",
+                    "uri": "https:\/\/github.com\/FriendsOfPHP\/pickle",
+                    "description": "A PHP extension installer.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Dependency Management Extras",
+            "children": [
+                {
+                    "name": "Satis",
+                    "uri": "https:\/\/github.com\/composer\/satis",
+                    "description": "A static Composer repository generator.",
+                    "size": 2000
+                },
+                {
+                    "name": "Composition",
+                    "uri": "https:\/\/github.com\/bamarni\/composition",
+                    "description": "A library to check your Composer environment at runtime.",
+                    "size": 2000
+                },
+                {
+                    "name": "Poser",
+                    "uri": "https:\/\/github.com\/FrenkyNet\/Poser",
+                    "description": "A Composer class aliasing library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Version",
+                    "uri": "https:\/\/github.com\/herrera-io\/php-version",
+                    "description": "A parsing and comparison library for semantic versioning.",
+                    "size": 2000
+                },
+                {
+                    "name": "NameSpacer",
+                    "uri": "https:\/\/github.com\/ralphschindler\/Namespacer",
+                    "description": "A library to convert from underscores to namespaces.",
+                    "size": 2000
+                },
+                {
+                    "name": "Patch Installer",
+                    "uri": "https:\/\/github.com\/goatherd\/patch-installer",
+                    "description": "A library to install patches using Composer.",
+                    "size": 2000
+                },
+                {
+                    "name": "Composer Checker",
+                    "uri": "https:\/\/github.com\/silpion\/composer-checker",
+                    "description": "A tool to validate Composer configurations.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Frameworks",
+            "children": [
+                {
+                    "name": "Symfony2",
+                    "uri": "http:\/\/symfony.com\/",
+                    "description": "A framework comprised of individual components.",
+                    "size": 2000
+                },
+                {
+                    "name": "Zend Framework 2",
+                    "uri": "http:\/\/framework.zend.com",
+                    "description": "Another framework comprised of individual components.",
+                    "size": 2000
+                },
+                {
+                    "name": "Laravel 4",
+                    "uri": "http:\/\/laravel.com\/",
+                    "description": "A simple PHP framework.",
+                    "size": 2000
+                },
+                {
+                    "name": "Aura PHP",
+                    "uri": "http:\/\/auraphp.com\/",
+                    "description": "A framework of independent components.",
+                    "size": 2000
+                },
+                {
+                    "name": "Phalcon",
+                    "uri": "http:\/\/phalconphp.com\/en\/",
+                    "description": "A framework implemented as a C extension.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Framework Extras",
+            "children": [
+                {
+                    "name": "Symfony CMF",
+                    "uri": "https:\/\/github.com\/symfony-cmf\/symfony-cmf",
+                    "description": "A Content Management Framework to create custom CMS.",
+                    "size": 2000
+                },
+                {
+                    "name": "Knp RAD Bundle",
+                    "uri": "http:\/\/rad.knplabs.com\/",
+                    "description": "A Rapid Application Development (RAD) bundle for Symfony 2.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Framework Components",
+            "children": [
+                {
+                    "name": "Symfony2 Components",
+                    "uri": "http:\/\/symfony.com\/doc\/master\/components\/index.html",
+                    "description": "The components that make Symfony2.",
+                    "size": 2000
+                },
+                {
+                    "name": "Zend Framework 2 Components",
+                    "uri": "https:\/\/packages.zendframework.com\/",
+                    "description": "The components that make ZF2.",
+                    "size": 2000
+                },
+                {
+                    "name": "Aura Components",
+                    "uri": "http:\/\/auraphp.github.com\/",
+                    "description": "A package of PHP 5.4 components.",
+                    "size": 2000
+                },
+                {
+                    "name": "Hoa Project",
+                    "uri": "http:\/\/hoa-project.net\/En\/",
+                    "description": "Another package of PHP components.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Micro Frameworks",
+            "children": [
+                {
+                    "name": "Silex",
+                    "uri": "http:\/\/silex.sensiolabs.org\/",
+                    "description": "A micro framework built around Symfony2 components.",
+                    "size": 2000
+                },
+                {
+                    "name": "Slim",
+                    "uri": "http:\/\/www.slimframework.com\/",
+                    "description": "Another simple micro framework.",
+                    "size": 2000
+                },
+                {
+                    "name": "Bullet PHP",
+                    "uri": "http:\/\/bulletphp.com\/",
+                    "description": "A micro framework for building REST APIs.",
+                    "size": 2000
+                },
+                {
+                    "name": "Fast Route",
+                    "uri": "https:\/\/github.com\/nikic\/FastRoute",
+                    "description": "A fast routing library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Pux",
+                    "uri": "https:\/\/github.com\/c9s\/Pux",
+                    "description": "Another fast routing library.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Micro Framework Extras",
+            "children": [
+                {
+                    "name": "Silex Skeleton",
+                    "uri": "https:\/\/github.com\/fabpot\/Silex-Skeleton",
+                    "description": "A project skeleton for Silex.",
+                    "size": 2000
+                },
+                {
+                    "name": "Silex Web Profiler",
+                    "uri": "https:\/\/github.com\/silexphp\/Silex-WebProfiler",
+                    "description": "A web debug toolbar for Silex.",
+                    "size": 2000
+                },
+                {
+                    "name": "Stack",
+                    "uri": "https:\/\/github.com\/stackphp",
+                    "description": "A library of stackable middleware for Silex\/Symfony.",
+                    "size": 2000
+                },
+                {
+                    "name": "Slim Skeleton",
+                    "uri": "https:\/\/github.com\/codeguy\/Slim-Skeleton",
+                    "description": "A skeleton for Slim.",
+                    "size": 2000
+                },
+                {
+                    "name": "Slim View",
+                    "uri": "https:\/\/github.com\/codeguy\/Slim-Views",
+                    "description": "A collection of custom views for Slim.",
+                    "size": 2000
+                },
+                {
+                    "name": "Slim Middleware",
+                    "uri": "https:\/\/github.com\/codeguy\/Slim-Middleware",
+                    "description": "A collection of custom middleware for Slim.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Templating",
+            "children": [
+                {
+                    "name": "Twig",
+                    "uri": "http:\/\/twig.sensiolabs.org\/",
+                    "description": "A comprehensive templating language.",
+                    "size": 2000
+                },
+                {
+                    "name": "Twig Cache Extension",
+                    "uri": "https:\/\/github.com\/asm89\/twig-cache-extension",
+                    "description": "A template fragment cache library for Twig.",
+                    "size": 2000
+                },
+                {
+                    "name": "Mustache",
+                    "uri": "https:\/\/github.com\/bobthecow\/mustache.php",
+                    "description": "A PHP implementation of the Mustache template language.",
+                    "size": 2000
+                },
+                {
+                    "name": "Phly Mustache",
+                    "uri": "https:\/\/github.com\/weierophinney\/phly_mustache",
+                    "description": "Another PHP implementation of the Mustache template language.",
+                    "size": 2000
+                },
+                {
+                    "name": "MtHaml",
+                    "uri": "https:\/\/github.com\/arnaud-lb\/MtHaml",
+                    "description": "A PHP implementation of the HAML template language.",
+                    "size": 2000
+                },
+                {
+                    "name": "Plates",
+                    "uri": "http:\/\/platesphp.com\/",
+                    "description": "A native PHP templating library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Lex",
+                    "uri": "https:\/\/github.com\/pyrocms\/lex",
+                    "description": "A lightweight template parser.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Static Site Generators",
+            "children": [
+                {
+                    "name": "Sculpin",
+                    "uri": "http:\/\/sculpin.io",
+                    "description": "A tool that converts Markdown and Twig into static HTML.",
+                    "size": 2000
+                },
+                {
+                    "name": "Phrozn",
+                    "uri": "http:\/\/phrozn.info",
+                    "description": "Another tool that converts Textile, Markdown and Twig into HTML.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " HTTP",
+            "children": [
+                {
+                    "name": "Guzzle",
+                    "uri": "http:\/\/guzzlephp.org\/",
+                    "description": "A comprehensive HTTP client.",
+                    "size": 2000
+                },
+                {
+                    "name": "Buzz",
+                    "uri": "https:\/\/github.com\/kriswallsmith\/Buzz",
+                    "description": "Another HTTP client.",
+                    "size": 2000
+                },
+                {
+                    "name": "Requests",
+                    "uri": "https:\/\/github.com\/rmccue\/Requests",
+                    "description": "A simple HTTP library.",
+                    "size": 2000
+                },
+                {
+                    "name": "HTTPFul",
+                    "uri": "https:\/\/github.com\/nategood\/httpful",
+                    "description": "A chainable HTTP client.",
+                    "size": 2000
+                },
+                {
+                    "name": "Goutte",
+                    "uri": "https:\/\/github.com\/fabpot\/Goutte",
+                    "description": "A simple web scraper.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP VCR",
+                    "uri": "http:\/\/php-vcr.github.io\/",
+                    "description": "A library for recording and replaying HTTP requests.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " URL",
+            "children": [
+                {
+                    "name": "Purl",
+                    "uri": "https:\/\/github.com\/jwage\/purl",
+                    "description": "A URL manipulation library.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP Domain Parser",
+                    "uri": "https:\/\/github.com\/jeremykendall\/php-domain-parser",
+                    "description": "A domain suffix parser library.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Email",
+            "children": [
+                {
+                    "name": "SwiftMailer",
+                    "uri": "http:\/\/swiftmailer.org\/",
+                    "description": "A mailer solution.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHPMailer",
+                    "uri": "https:\/\/github.com\/PHPMailer\/PHPMailer",
+                    "description": "Another mailer solution.",
+                    "size": 2000
+                },
+                {
+                    "name": "Fetch",
+                    "uri": "https:\/\/github.com\/tedivm\/Fetch",
+                    "description": "An IMAP library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Email Reply Parser",
+                    "uri": "https:\/\/github.com\/willdurand\/EmailReplyParser",
+                    "description": "An email reply parser library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Stampie",
+                    "uri": "https:\/\/github.com\/henrikbjorn\/Stampie",
+                    "description": "A library for email services such as [SendGrid](http:\/\/sendgrid.com), [PostMark](http:\/\/postmarkapp.com), [MailGun](http:\/\/www.mailgun.com) and [Mandrill](http:\/\/www.mandrill.com).",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Files",
+            "children": [
+                {
+                    "name": "Gaufrette",
+                    "uri": "https:\/\/github.com\/KnpLabs\/Gaufrette",
+                    "description": "A filesystem abstraction layer.",
+                    "size": 2000
+                },
+                {
+                    "name": "Flysystem",
+                    "uri": "https:\/\/github.com\/FrenkyNet\/Flysystem",
+                    "description": "Another filesystem abstraction layer.",
+                    "size": 2000
+                },
+                {
+                    "name": "Canal",
+                    "uri": "https:\/\/github.com\/dflydev\/dflydev-canal",
+                    "description": "A library to determine internet media types.",
+                    "size": 2000
+                },
+                {
+                    "name": "Apache MIME Types",
+                    "uri": "https:\/\/github.com\/dflydev\/dflydev-apache-mime-types",
+                    "description": "A library that parses Apache MIME types.",
+                    "size": 2000
+                },
+                {
+                    "name": "Ferret",
+                    "uri": "https:\/\/github.com\/versionable\/Ferret",
+                    "description": "A MIME detection library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Hoa Mime",
+                    "uri": "https:\/\/github.com\/hoaproject\/Mime",
+                    "description": "Another MIME detection library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Lurker",
+                    "uri": "https:\/\/github.com\/henrikbjorn\/Lurker",
+                    "description": "A resource tracking library.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP File Locator",
+                    "uri": "https:\/\/github.com\/herrera-io\/php-file-locator",
+                    "description": "A library for locating files in large projects.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP FFmpeg",
+                    "uri": "https:\/\/github.com\/alchemy-fr\/PHP-FFmpeg\/",
+                    "description": "A wrapper for the [FFmpeg](http:\/\/www.ffmpeg.org\/) video library.",
+                    "size": 2000
+                },
+                {
+                    "name": "CSV",
+                    "uri": "https:\/\/github.com\/nyamsprod\/Bakame.csv",
+                    "description": "A CSV data manipulation library.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Streams",
+            "children": [
+                {
+                    "name": "Streamer",
+                    "uri": "https:\/\/github.com\/fzaninotto\/Streamer",
+                    "description": "A simple object-orientated stream wrapper library.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Dependency Injection",
+            "children": [
+                {
+                    "name": "Pimple",
+                    "uri": "http:\/\/pimple.sensiolabs.org\/",
+                    "description": "A tiny dependency injection container.",
+                    "size": 2000
+                },
+                {
+                    "name": "Auryn",
+                    "uri": "https:\/\/github.com\/rdlowrey\/Auryn",
+                    "description": "Another dependency injection container.",
+                    "size": 2000
+                },
+                {
+                    "name": "Orno Di",
+                    "uri": "https:\/\/github.com\/orno\/di",
+                    "description": "Another flexible dependency injection container.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP DI",
+                    "uri": "http:\/\/mnapoli.github.com\/PHP-DI\/",
+                    "description": "A dependency injection implementation using annotations.",
+                    "size": 2000
+                },
+                {
+                    "name": "Acclimate",
+                    "uri": "https:\/\/github.com\/jeremeamia\/acclimate",
+                    "description": "A common interface to dependency injection containers and service locators.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Imagery",
+            "children": [
+                {
+                    "name": "Imagine",
+                    "uri": "http:\/\/imagine.readthedocs.org\/en\/latest\/index.html",
+                    "description": "An image manipulation library.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP Image Workshop",
+                    "uri": "https:\/\/github.com\/Sybio\/ImageWorkshop",
+                    "description": "Another image manipulation library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Intervention Image",
+                    "uri": "https:\/\/github.com\/Intervention\/image",
+                    "description": "Another image manipulation library.",
+                    "size": 2000
+                },
+                {
+                    "name": "GIF Frame Extractor",
+                    "uri": "https:\/\/github.com\/Sybio\/GifFrameExtractor",
+                    "description": "A library to extract GIF animation frame information.",
+                    "size": 2000
+                },
+                {
+                    "name": "GIF Creator",
+                    "uri": "https:\/\/github.com\/Sybio\/GifCreator",
+                    "description": "A library to create GIF animations from multiple images.",
+                    "size": 2000
+                },
+                {
+                    "name": "Image With Text",
+                    "uri": "https:\/\/github.com\/nmcteam\/image-with-text",
+                    "description": "A library for embedding text into images.",
+                    "size": 2000
+                },
+                {
+                    "name": "Color Extractor",
+                    "uri": "https:\/\/github.com\/php-loep\/color-extractor",
+                    "description": "A library for extracting colours from images.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Testing",
+            "children": [
+                {
+                    "name": "PHPUnit",
+                    "uri": "https:\/\/github.com\/sebastianbergmann\/phpunit",
+                    "description": "A unit testing framework.",
+                    "size": 2000
+                },
+                {
+                    "name": "DBUnit",
+                    "uri": "https:\/\/github.com\/sebastianbergmann\/dbunit",
+                    "description": "A database testing library for PHPUnit.",
+                    "size": 2000
+                },
+                {
+                    "name": "ParaTest",
+                    "uri": "https:\/\/github.com\/brianium\/paratest",
+                    "description": "A parallel testing library for PHPUnit.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHPSpec",
+                    "uri": "https:\/\/github.com\/phpspec\/phpspec",
+                    "description": "A design by specification unit testing library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Codeception",
+                    "uri": "https:\/\/github.com\/Codeception\/Codeception",
+                    "description": "A full stack testing framework.",
+                    "size": 2000
+                },
+                {
+                    "name": "Atoum",
+                    "uri": "https:\/\/github.com\/atoum\/atoum",
+                    "description": "A simple testing library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Mockery",
+                    "uri": "https:\/\/github.com\/padraic\/mockery",
+                    "description": "A mock object library for testing.",
+                    "size": 2000
+                },
+                {
+                    "name": "Phake",
+                    "uri": "https:\/\/github.com\/mlively\/Phake",
+                    "description": "Another mock object library for testing.",
+                    "size": 2000
+                },
+                {
+                    "name": "Parody",
+                    "uri": "https:\/\/github.com\/dotink\/Parody",
+                    "description": "Yet another mock object library for testing.",
+                    "size": 2000
+                },
+                {
+                    "name": "Faker",
+                    "uri": "https:\/\/github.com\/fzaninotto\/Faker",
+                    "description": "A fake data generator library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Samsui",
+                    "uri": "https:\/\/github.com\/mauris\/samsui",
+                    "description": "Another fake data generator library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Alice",
+                    "uri": "https:\/\/github.com\/nelmio\/alice",
+                    "description": "An expressive fixture generation library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Behat",
+                    "uri": "http:\/\/behat.org\/",
+                    "description": "A behaviour driven development (BDD) testing framework.",
+                    "size": 2000
+                },
+                {
+                    "name": "Pho",
+                    "uri": "https:\/\/github.com\/danielstjules\/pho",
+                    "description": "Another behaviour driven development testing framework.",
+                    "size": 2000
+                },
+                {
+                    "name": "Mink",
+                    "uri": "http:\/\/mink.behat.org\/",
+                    "description": "Web acceptance testing.",
+                    "size": 2000
+                },
+                {
+                    "name": "HTTP Mock",
+                    "uri": "https:\/\/github.com\/InterNations\/http-mock",
+                    "description": "A library for mocking HTTP requests in unit tests.",
+                    "size": 2000
+                },
+                {
+                    "name": "VFS Stream",
+                    "uri": "https:\/\/github.com\/mikey179\/vfsStream",
+                    "description": "A virtual filesystem stream wrapper for testing.",
+                    "size": 2000
+                },
+                {
+                    "name": "VFS",
+                    "uri": "https:\/\/github.com\/adlawson\/vfs.php",
+                    "description": "Another virtual filesystem for testing.",
+                    "size": 2000
+                },
+                {
+                    "name": "Locust",
+                    "uri": "http:\/\/locust.io\/",
+                    "description": "A modern load test library written in Python.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Continuous Integration",
+            "children": [
+                {
+                    "name": "Travis CI",
+                    "uri": "https:\/\/travis-ci.org\/",
+                    "description": "A continuous integration platform.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHPCI",
+                    "uri": "http:\/\/www.phptesting.org\/",
+                    "description": "An open source continuous integration platform for PHP.",
+                    "size": 2000
+                },
+                {
+                    "name": "Sismo",
+                    "uri": "http:\/\/sismo.sensiolabs.org\/",
+                    "description": "A continuous testing server library.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Documentation",
+            "children": [
+                {
+                    "name": "Sami",
+                    "uri": "https:\/\/github.com\/fabpot\/Sami",
+                    "description": "An API documentation generator.",
+                    "size": 2000
+                },
+                {
+                    "name": "APIGen",
+                    "uri": "https:\/\/github.com\/apigen\/apigen",
+                    "description": "Another API documentation generator.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP Documentor 2",
+                    "uri": "https:\/\/github.com\/phpDocumentor\/phpDocumentor2",
+                    "description": "A documentation generator.",
+                    "size": 2000
+                },
+                {
+                    "name": "phpDox",
+                    "uri": "http:\/\/phpdox.de\/",
+                    "description": "A documentation generator for PHP projects (that is not limited to API documentation).",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Security",
+            "children": [
+                {
+                    "name": "HTML Purifier",
+                    "uri": "https:\/\/github.com\/ezyang\/htmlpurifier",
+                    "description": "A standards compliant HTML filter.",
+                    "size": 2000
+                },
+                {
+                    "name": "RandomLib",
+                    "uri": "https:\/\/github.com\/ircmaxell\/RandomLib",
+                    "description": "A library for generating random numbers and strings.",
+                    "size": 2000
+                },
+                {
+                    "name": "True Random",
+                    "uri": "https:\/\/github.com\/pixeloution\/true-random",
+                    "description": "A library that generates random numbers using [www.random.org](http:\/\/www.random.org\/).",
+                    "size": 2000
+                },
+                {
+                    "name": "SecurityMultiTool",
+                    "uri": "https:\/\/github.com\/padraic\/SecurityMultiTool",
+                    "description": "A PHP security library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Password Compat",
+                    "uri": "https:\/\/github.com\/ircmaxell\/password_compat",
+                    "description": "A compatibility library for the new PHP 5.5 password functions.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHPAss",
+                    "uri": "http:\/\/www.openwall.com\/phpass\/",
+                    "description": "A portable password hashing framework.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP Password Lib",
+                    "uri": "https:\/\/github.com\/ircmaxell\/PHP-PasswordLib",
+                    "description": "A library for generating and validating passwords.",
+                    "size": 2000
+                },
+                {
+                    "name": "Password Policy",
+                    "uri": "https:\/\/github.com\/ircmaxell\/password-policy",
+                    "description": "A password policy library for PHP and JavaScript.",
+                    "size": 2000
+                },
+                {
+                    "name": "Password Validator",
+                    "uri": "https:\/\/github.com\/jeremykendall\/password-validator",
+                    "description": "A library for validating and upgrading password hashes.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHPSecLib",
+                    "uri": "http:\/\/phpseclib.sourceforge.net\/",
+                    "description": "A pure PHP secure communications library.",
+                    "size": 2000
+                },
+                {
+                    "name": "TCrypto",
+                    "uri": "https:\/\/github.com\/timoh6\/TCrypto",
+                    "description": "A simple encrypted key-value storage library.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP IDS",
+                    "uri": "https:\/\/github.com\/PHPIDS\/PHPIDS",
+                    "description": "A structured PHP security layer.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP SSH",
+                    "uri": "https:\/\/github.com\/Herzult\/php-ssh",
+                    "description": "An experimental object orientated SSH wrapper library.",
+                    "size": 2000
+                },
+                {
+                    "name": "IniScan",
+                    "uri": "https:\/\/github.com\/psecio\/iniscan",
+                    "description": "A tool that scans PHP INI files for security.",
+                    "size": 2000
+                },
+                {
+                    "name": "SensioLabs Security Check",
+                    "uri": "https:\/\/security.sensiolabs.org\/",
+                    "description": "A web tool to check your Composer dependencies for security advisories.",
+                    "size": 2000
+                },
+                {
+                    "name": "Zed",
+                    "uri": "https:\/\/www.owasp.org\/index.php\/OWASP_Zed_Attack_Proxy_Project",
+                    "description": "An integrated penetration testing tool for web applications.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Code Analysis",
+            "children": [
+                {
+                    "name": "PHP Parser",
+                    "uri": "https:\/\/github.com\/nikic\/PHP-Parser",
+                    "description": "A PHP parser written in PHP.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHPPHP",
+                    "uri": "https:\/\/github.com\/ircmaxell\/PHPPHP",
+                    "description": "A PHP VM implementation in PHP.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHPSandbox",
+                    "uri": "https:\/\/github.com\/fieryprophet\/php-sandbox",
+                    "description": "A PHP sandbox environment.",
+                    "size": 2000
+                },
+                {
+                    "name": "Dissect",
+                    "uri": "https:\/\/github.com\/jakubledl\/dissect",
+                    "description": "A set of tools for lexical and syntactical analysis.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP Mess Detector",
+                    "uri": "http:\/\/phpmd.org\/",
+                    "description": "A library that scans code for bugs, sub-optimal code, unused parameters and more.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP Code Sniffer",
+                    "uri": "https:\/\/github.com\/squizlabs\/PHP_CodeSniffer",
+                    "description": "A library that detects PHP, CSS and JS coding standard violations.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHPCPD",
+                    "uri": "https:\/\/github.com\/sebastianbergmann\/phpcpd",
+                    "description": "A library that detects copied and pasted code.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP Analyser",
+                    "uri": "https:\/\/github.com\/scrutinizer-ci\/php-analyzer",
+                    "description": "A library for analysing PHP code to find bugs and errors.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP CS Fixer",
+                    "uri": "https:\/\/github.com\/fabpot\/PHP-CS-Fixer",
+                    "description": "A coding standard fixer library.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP Manipulator",
+                    "uri": "https:\/\/github.com\/schmittjoh\/php-manipulator",
+                    "description": "A library for analysing and modifying PHP Source Code.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP Metrics",
+                    "uri": "https:\/\/github.com\/Halleck45\/PhpMetrics",
+                    "description": "A static metric library.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP Refactoring Browser",
+                    "uri": "https:\/\/github.com\/QafooLabs\/php-refactoring-browser",
+                    "description": "A command line utility for refactoring PHP code.",
+                    "size": 2000
+                },
+                {
+                    "name": "UBench",
+                    "uri": "https:\/\/github.com\/devster\/ubench",
+                    "description": "A simple micro benchmark library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Athletic",
+                    "uri": "https:\/\/github.com\/polyfractal\/athletic",
+                    "description": "An annotation based benchmark framework.",
+                    "size": 2000
+                },
+                {
+                    "name": "Mondrian",
+                    "uri": "https:\/\/github.com\/Trismegiste\/Mondrian",
+                    "description": "A code analysis tool using Graph Theory.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP Debug Bar",
+                    "uri": "http:\/\/phpdebugbar.com\/",
+                    "description": "A debugging toolbar.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP Console",
+                    "uri": "https:\/\/github.com\/Seldaek\/php-console",
+                    "description": "A web debugging console.",
+                    "size": 2000
+                },
+                {
+                    "name": "Barbushin PHP Console",
+                    "uri": "https:\/\/github.com\/barbushin\/php-console",
+                    "description": "Another web debugging console using Google Chrome.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHPDBG",
+                    "uri": "http:\/\/phpdbg.com\/",
+                    "description": "An interactive PHP debugger.",
+                    "size": 2000
+                },
+                {
+                    "name": "Scrutinizer",
+                    "uri": "https:\/\/scrutinizer-ci.com\/",
+                    "description": "A web tool to scrutinise PHP code.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHPLOC",
+                    "uri": "https:\/\/github.com\/sebastianbergmann\/phploc",
+                    "description": "A tool for quickly measuring the size of a PHP project.",
+                    "size": 2000
+                },
+                {
+                    "name": "xDebug",
+                    "uri": "https:\/\/github.com\/xdebug\/xdebug",
+                    "description": "A debug and profile tool for PHP.",
+                    "size": 2000
+                },
+                {
+                    "name": "xHprof",
+                    "uri": "https:\/\/github.com\/phacility\/xhprof",
+                    "description": "Another profiling tool for PHP.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Build Tools",
+            "children": [
+                {
+                    "name": "Go",
+                    "uri": "https:\/\/github.com\/herrera-io\/php-go",
+                    "description": "A simple PHP build tool.",
+                    "size": 2000
+                },
+                {
+                    "name": "Bob",
+                    "uri": "https:\/\/github.com\/CHH\/bob",
+                    "description": "A simple project automation tool.",
+                    "size": 2000
+                },
+                {
+                    "name": "Phake",
+                    "uri": "https:\/\/github.com\/jaz303\/phake",
+                    "description": "A rake PHP clone library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Box",
+                    "uri": "https:\/\/github.com\/kherge\/Box",
+                    "description": "A utility to build PHAR files.",
+                    "size": 2000
+                },
+                {
+                    "name": "Phing",
+                    "uri": "http:\/\/www.phing.info\/",
+                    "description": "A PHP project build system inspired by Apache Ant.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Task Runners",
+            "children": [
+                {
+                    "name": "Task",
+                    "uri": "http:\/\/taskphp.github.io\/",
+                    "description": "A pure PHP task runner inspired by Grunt and Gulp.",
+                    "size": 2000
+                },
+                {
+                    "name": "Robo",
+                    "uri": "https:\/\/github.com\/Codegyre\/Robo",
+                    "description": "A PHP Task runner with object-orientated configurations.",
+                    "size": 2000
+                },
+                {
+                    "name": "Bldr",
+                    "uri": "http:\/\/bldr.io\/",
+                    "description": "A PHP Task runner built on Symfony components.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Navigation",
+            "children": [
+                {
+                    "name": "KnpMenu",
+                    "uri": "https:\/\/github.com\/KnpLabs\/KnpMenu",
+                    "description": "A menu library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Cartographer",
+                    "uri": "https:\/\/github.com\/tackk\/cartographer",
+                    "description": "A sitemap generation library.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Asset Management",
+            "children": [
+                {
+                    "name": "Assetic",
+                    "uri": "https:\/\/github.com\/kriswallsmith\/assetic",
+                    "description": "An asset manager pipeline library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Pipe",
+                    "uri": "https:\/\/github.com\/CHH\/pipe",
+                    "description": "Another asset manager pipeline library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Munee",
+                    "uri": "https:\/\/github.com\/meenie\/munee",
+                    "description": "An asset optimiser library.",
+                    "size": 2000
+                },
+                {
+                    "name": "JShrink",
+                    "uri": "https:\/\/github.com\/tedivm\/JShrink",
+                    "description": "A JavaScript minifier library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Puli",
+                    "uri": "https:\/\/github.com\/webmozart\/puli",
+                    "description": "A library for determining assets absolute paths.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Geolocation",
+            "children": [
+                {
+                    "name": "GeoCoder",
+                    "uri": "http:\/\/geocoder-php.org\/",
+                    "description": "A geocoding library.",
+                    "size": 2000
+                },
+                {
+                    "name": "GeoTools",
+                    "uri": "https:\/\/github.com\/php-loep\/Geotools",
+                    "description": "A library of geo-related tools.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHPGeo",
+                    "uri": "https:\/\/github.com\/mjaschen\/phpgeo",
+                    "description": "A simple geo library.",
+                    "size": 2000
+                },
+                {
+                    "name": "GeoJSON",
+                    "uri": "https:\/\/github.com\/jmikola\/geojson",
+                    "description": "A GeoJSON implementation.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Date and Time",
+            "children": [
+                {
+                    "name": "Carbon",
+                    "uri": "https:\/\/github.com\/briannesbitt\/Carbon",
+                    "description": "A simple DateTime API extension.",
+                    "size": 2000
+                },
+                {
+                    "name": "ExpressiveDate",
+                    "uri": "https:\/\/github.com\/jasonlewis\/expressive-date",
+                    "description": "Another DateTime API extension.",
+                    "size": 2000
+                },
+                {
+                    "name": "CalendR",
+                    "uri": "http:\/\/yohan.giarel.li\/CalendR",
+                    "description": "A calendar management library.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Event",
+            "children": [
+                {
+                    "name": "React",
+                    "uri": "https:\/\/github.com\/reactphp\/react",
+                    "description": "An event driven non-blocking I\/O library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Rx.PHP",
+                    "uri": "https:\/\/github.com\/asm89\/Rx.PHP",
+                    "description": "A reactive extension library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Ratchet",
+                    "uri": "https:\/\/github.com\/cboden\/Ratchet",
+                    "description": "A web socket library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Hoa WebSocket",
+                    "uri": "https:\/\/github.com\/hoaproject\/Websocket",
+                    "description": "Another web socket library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Hoa EventSource",
+                    "uri": "https:\/\/github.com\/hoaproject\/Eventsource",
+                    "description": "An event source library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Evenement",
+                    "uri": "https:\/\/github.com\/igorw\/evenement",
+                    "description": "An event dispatcher library.",
+                    "size": 2000
+                },
+                {
+                    "name": "FuelPHP Event",
+                    "uri": "https:\/\/github.com\/fuelphp\/event",
+                    "description": "Another event dispatcher library.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Logging",
+            "children": [
+                {
+                    "name": "Monolog",
+                    "uri": "https:\/\/github.com\/Seldaek\/monolog",
+                    "description": "A comprehensive logger.",
+                    "size": 2000
+                },
+                {
+                    "name": "KLogger",
+                    "uri": "https:\/\/github.com\/katzgrau\/KLogger",
+                    "description": "An easy-to-use PSR-3 compliant logging class.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " E-commerce",
+            "children": [
+                {
+                    "name": "OmniPay",
+                    "uri": "https:\/\/github.com\/adrianmacneil\/omnipay",
+                    "description": "A framework agnostic multi-gateway payment processing library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Payum",
+                    "uri": "https:\/\/github.com\/payum\/payum",
+                    "description": "A payment abstraction library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Sylius",
+                    "uri": "http:\/\/www.sylius.org\/",
+                    "description": "An open source e-commerce solution.",
+                    "size": 2000
+                },
+                {
+                    "name": "Thelia",
+                    "uri": "http:\/\/thelia.net\/v2\/",
+                    "description": "Another open source e-commerce solution.",
+                    "size": 2000
+                },
+                {
+                    "name": "Money",
+                    "uri": "https:\/\/github.com\/mathiasverraes\/money",
+                    "description": "A PHP implementation of Fowler's money pattern.",
+                    "size": 2000
+                },
+                {
+                    "name": "Sebastian Money",
+                    "uri": "https:\/\/github.com\/sebastianbergmann\/money",
+                    "description": "Another library for working with monetary values.",
+                    "size": 2000
+                },
+                {
+                    "name": "Swap",
+                    "uri": "https:\/\/github.com\/florianv\/swap",
+                    "description": "An exchange rates library.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " PDF",
+            "children": [
+                {
+                    "name": "Snappy",
+                    "uri": "https:\/\/github.com\/KnpLabs\/snappy",
+                    "description": "A PDF and image generation library.",
+                    "size": 2000
+                },
+                {
+                    "name": "WKHTMLToPDF",
+                    "uri": "https:\/\/github.com\/antialize\/wkhtmltopdf",
+                    "description": "A tool to convert HTML to PDF.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " ORM and Datamapping",
+            "children": [
+                {
+                    "name": "Doctrine",
+                    "uri": "http:\/\/www.doctrine-project.org\/",
+                    "description": "A comprehensive DBAL and ORM.",
+                    "size": 2000
+                },
+                {
+                    "name": "Doctrine Migrations",
+                    "uri": "http:\/\/docs.doctrine-project.org\/projects\/doctrine-migrations\/en\/latest\/toc.html",
+                    "description": "A migration library for Doctrine.",
+                    "size": 2000
+                },
+                {
+                    "name": "Doctrine Extensions",
+                    "uri": "https:\/\/github.com\/l3pp4rd\/DoctrineExtensions",
+                    "description": "A collection of Doctrine behavioural extensions.",
+                    "size": 2000
+                },
+                {
+                    "name": "Propel",
+                    "uri": "http:\/\/www.propelorm.org\/",
+                    "description": "A fast ORM.",
+                    "size": 2000
+                },
+                {
+                    "name": "Eloquent",
+                    "uri": "https:\/\/github.com\/illuminate\/database",
+                    "description": "The Laravel 4 ORM.",
+                    "size": 2000
+                },
+                {
+                    "name": "Baum",
+                    "uri": "https:\/\/github.com\/etrepat\/baum",
+                    "description": "A nested set implementation for Eloquent.",
+                    "size": 2000
+                },
+                {
+                    "name": "Spot",
+                    "uri": "https:\/\/github.com\/vlucas\/Spot",
+                    "description": "A MySQL datamapper ORM.",
+                    "size": 2000
+                },
+                {
+                    "name": "RedBean",
+                    "uri": "http:\/\/redbeanphp.com\/",
+                    "description": "A lightweight, configuration-less ORM.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP ActiveRecord",
+                    "uri": "https:\/\/github.com\/kla\/php-activerecord",
+                    "description": "A PHP Active Record implementation.",
+                    "size": 2000
+                },
+                {
+                    "name": "Paris and Idiorm",
+                    "uri": "http:\/\/j4mie.github.io\/idiormandparis\/",
+                    "description": "A minimalist database library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Pomm",
+                    "uri": "https:\/\/github.com\/chanmix51\/Pomm",
+                    "description": "An Object Model Manager for PostgreSQL.",
+                    "size": 2000
+                },
+                {
+                    "name": "Migrations",
+                    "uri": "https:\/\/github.com\/icomefromthenet\/Migrations",
+                    "description": "A migration management library.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHPMig",
+                    "uri": "https:\/\/github.com\/davedevelopment\/phpmig",
+                    "description": "Another migration management library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Phinx",
+                    "uri": "https:\/\/github.com\/robmorgan\/phinx",
+                    "description": "Another database migration library.",
+                    "size": 2000
+                },
+                {
+                    "name": "ProxyManager",
+                    "uri": "https:\/\/github.com\/Ocramius\/ProxyManager",
+                    "description": "A set of utilities to generate proxy objects for data mappers.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " NoSQL",
+            "children": [
+                {
+                    "name": "MongoQB",
+                    "uri": "https:\/\/github.com\/alexbilbie\/MongoQB",
+                    "description": "A MongoDB query builder library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Monga",
+                    "uri": "https:\/\/github.com\/thephpleague\/monga",
+                    "description": "A MongoDB abstraction library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Predis",
+                    "uri": "https:\/\/github.com\/nrk\/predis",
+                    "description": "A feature complete Redis library.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Queue",
+            "children": [
+                {
+                    "name": "Pheanstalk",
+                    "uri": "https:\/\/github.com\/pda\/pheanstalk",
+                    "description": "A Beanstalkd client library.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP AMQP",
+                    "uri": "https:\/\/github.com\/videlalvaro\/php-amqplib",
+                    "description": "A pure PHP AMQP library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Thumper",
+                    "uri": "https:\/\/github.com\/videlalvaro\/Thumper",
+                    "description": "A RabbitMQ pattern library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Bernard",
+                    "uri": "https:\/\/github.com\/bernardphp\/bernard",
+                    "description": "A multibackend abstraction library.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Search",
+            "children": [
+                {
+                    "name": "ElasticSearch PHP",
+                    "uri": "https:\/\/github.com\/elasticsearch\/elasticsearch-php",
+                    "description": "The official client library for [ElasticSearch](http:\/\/www.elasticsearch.org\/).",
+                    "size": 2000
+                },
+                {
+                    "name": "Elastica",
+                    "uri": "https:\/\/github.com\/ruflin\/Elastica",
+                    "description": "A client library for ElasticSearch.",
+                    "size": 2000
+                },
+                {
+                    "name": "Solarium",
+                    "uri": "http:\/\/www.solarium-project.org\/",
+                    "description": "A client library for [Solr](http:\/\/lucene.apache.org\/solr\/).",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Command Line",
+            "children": [
+                {
+                    "name": "Boris",
+                    "uri": "https:\/\/github.com\/d11wtq\/boris",
+                    "description": "A tiny PHP REPL.",
+                    "size": 2000
+                },
+                {
+                    "name": "PsySH",
+                    "uri": "https:\/\/github.com\/bobthecow\/psysh",
+                    "description": "Another PHP REPL.",
+                    "size": 2000
+                },
+                {
+                    "name": "Pecan",
+                    "uri": "https:\/\/github.com\/mcrumm\/pecan",
+                    "description": "An event-driven, non-blocking shell.",
+                    "size": 2000
+                },
+                {
+                    "name": "GetOpt",
+                    "uri": "https:\/\/github.com\/ulrichsg\/getopt-php",
+                    "description": "A command line opt parser.",
+                    "size": 2000
+                },
+                {
+                    "name": "OptParse",
+                    "uri": "https:\/\/github.com\/CHH\/optparse",
+                    "description": "Another command line opt parser.",
+                    "size": 2000
+                },
+                {
+                    "name": "Commando",
+                    "uri": "https:\/\/github.com\/nategood\/commando",
+                    "description": "Another simple command line opt parser.",
+                    "size": 2000
+                },
+                {
+                    "name": "GetOptionKit",
+                    "uri": "https:\/\/github.com\/c9s\/php-GetOptionKit",
+                    "description": "Another command line opt parser.",
+                    "size": 2000
+                },
+                {
+                    "name": "Cron Expression",
+                    "uri": "https:\/\/github.com\/mtdowling\/cron-expression",
+                    "description": "A library to calculate cron run dates.",
+                    "size": 2000
+                },
+                {
+                    "name": "ShellWrap",
+                    "uri": "https:\/\/github.com\/MrRio\/shellwrap",
+                    "description": "A simple command line wrapper library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Hoa Console",
+                    "uri": "https:\/\/github.com\/hoaproject\/Console",
+                    "description": "Another command line library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Shunt",
+                    "uri": "https:\/\/github.com\/php-loep\/shunt",
+                    "description": "A library for running commands in parallel on multiple remote machines.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Authentication",
+            "children": [
+                {
+                    "name": "Sentry",
+                    "uri": "https:\/\/github.com\/cartalyst\/sentry",
+                    "description": "A framework agnostic authentication & authorisation library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Sentry Social",
+                    "uri": "http:\/\/docs.cartalyst.com\/sentry-social-2\/introduction",
+                    "description": "A library for social network authentication.",
+                    "size": 2000
+                },
+                {
+                    "name": "Opauth",
+                    "uri": "https:\/\/github.com\/opauth\/opauth",
+                    "description": "A multi-provider authentication framework.",
+                    "size": 2000
+                },
+                {
+                    "name": "OAuth2",
+                    "uri": "https:\/\/github.com\/php-loep\/oauth2-server",
+                    "description": "An OAuth2 authentication server, resource server and client library.",
+                    "size": 2000
+                },
+                {
+                    "name": "OAuth2 Server",
+                    "uri": "http:\/\/bshaffer.github.io\/oauth2-server-php-docs\/",
+                    "description": "Another OAuth2 server implementation.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP oAuthLib",
+                    "uri": "https:\/\/github.com\/Lusitanian\/PHPoAuthLib",
+                    "description": "Another OAuth library.",
+                    "size": 2000
+                },
+                {
+                    "name": "TwitterOAuth",
+                    "uri": "https:\/\/github.com\/ruudk\/twitteroauth",
+                    "description": "A Twitter OAuth library.",
+                    "size": 2000
+                },
+                {
+                    "name": "TwitterSDK",
+                    "uri": "https:\/\/github.com\/lyrixx\/twitter-sdk",
+                    "description": "A fully tested Twitter SDK.",
+                    "size": 2000
+                },
+                {
+                    "name": "Hawk",
+                    "uri": "https:\/\/github.com\/dflydev\/dflydev-hawk",
+                    "description": "A Hawk HTTP authentication library.",
+                    "size": 2000
+                },
+                {
+                    "name": "HybridAuth",
+                    "uri": "https:\/\/github.com\/hybridauth\/hybridauth",
+                    "description": "An open source social sign on library.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Markup",
+            "children": [
+                {
+                    "name": "Decoda",
+                    "uri": "http:\/\/milesj.me\/code\/php\/decoda",
+                    "description": "A lightweight markup parser library.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP Markdown",
+                    "uri": "https:\/\/github.com\/michelf\/php-markdown",
+                    "description": "A Markdown parser.",
+                    "size": 2000
+                },
+                {
+                    "name": "Dflydev Markdown",
+                    "uri": "https:\/\/github.com\/dflydev\/dflydev-markdown",
+                    "description": "Another Markdown parser.",
+                    "size": 2000
+                },
+                {
+                    "name": "Parsedown",
+                    "uri": "https:\/\/github.com\/erusev\/parsedown",
+                    "description": "Another Markdown parser.",
+                    "size": 2000
+                },
+                {
+                    "name": "Ciconia",
+                    "uri": "https:\/\/github.com\/kzykhys\/Ciconia",
+                    "description": "Another Markdown parser that supports Github flavoured Markdown.",
+                    "size": 2000
+                },
+                {
+                    "name": "Cebe Markdown",
+                    "uri": "https:\/\/github.com\/cebe\/markdown",
+                    "description": "An fast and extensible Markdown parser.",
+                    "size": 2000
+                },
+                {
+                    "name": "HTML5 PHP",
+                    "uri": "https:\/\/github.com\/Masterminds\/html5-php",
+                    "description": "An HTML5 parser and serializer library.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Text and Numbers",
+            "children": [
+                {
+                    "name": "ANSI to HTML5",
+                    "uri": "https:\/\/github.com\/sensiolabs\/ansi-to-html",
+                    "description": "An ANSI to HTML5 converter library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Patchwork UTF-8",
+                    "uri": "https:\/\/github.com\/nicolas-grekas\/Patchwork-UTF8",
+                    "description": "A portable library for working with UTF-8 strings.",
+                    "size": 2000
+                },
+                {
+                    "name": "Hoa String",
+                    "uri": "https:\/\/github.com\/hoaproject\/String",
+                    "description": "Another UTF-8 string library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Stringy",
+                    "uri": "https:\/\/github.com\/danielstjules\/Stringy",
+                    "description": "A string manipulation library with multibyte support.",
+                    "size": 2000
+                },
+                {
+                    "name": "Numbers PHP",
+                    "uri": "https:\/\/github.com\/powder96\/numbers.php",
+                    "description": "A library for working with numbers.",
+                    "size": 2000
+                },
+                {
+                    "name": "Math",
+                    "uri": "https:\/\/github.com\/moontoast\/math",
+                    "description": "A library for working with large numbers.",
+                    "size": 2000
+                },
+                {
+                    "name": "Color Jizz",
+                    "uri": "https:\/\/github.com\/mikeemoo\/ColorJizz-PHP",
+                    "description": "A library for manipulating and converting colours.",
+                    "size": 2000
+                },
+                {
+                    "name": "UUID",
+                    "uri": "https:\/\/github.com\/ramsey\/uuid",
+                    "description": "A library for generating UUIDs.",
+                    "size": 2000
+                },
+                {
+                    "name": "Slugify",
+                    "uri": "https:\/\/github.com\/cocur\/slugify",
+                    "description": "A library to convert strings to slugs.",
+                    "size": 2000
+                },
+                {
+                    "name": "Urlify",
+                    "uri": "https:\/\/github.com\/jbroadway\/urlify",
+                    "description": "A PHP port of Django's URLify.js.",
+                    "size": 2000
+                },
+                {
+                    "name": "Text",
+                    "uri": "https:\/\/github.com\/kzykhys\/Text",
+                    "description": "A text manipulation library.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP Units of Measure",
+                    "uri": "https:\/\/github.com\/triplepoint\/php-units-of-measure",
+                    "description": "A library for converting between units of measure.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP Conversion",
+                    "uri": "https:\/\/github.com\/Crisu83\/php-conversion",
+                    "description": "Another library for converting between units of measure.",
+                    "size": 2000
+                },
+                {
+                    "name": "SQL Formatter",
+                    "uri": "https:\/\/github.com\/jdorn\/sql-formatter\/",
+                    "description": "A library for formatting SQL statements.",
+                    "size": 2000
+                },
+                {
+                    "name": "ByteUnits",
+                    "uri": "https:\/\/github.com\/gabrielelana\/byte-units",
+                    "description": "A library to parse, format and convert byte units in binary and metric systems.",
+                    "size": 2000
+                },
+                {
+                    "name": "UA Parser",
+                    "uri": "https:\/\/github.com\/tobie\/ua-parser\/tree\/master\/php",
+                    "description": "A library for parsing user agent strings.",
+                    "size": 2000
+                },
+                {
+                    "name": "LibPhoneNumber for PHP",
+                    "uri": "https:\/\/github.com\/giggsey\/libphonenumber-for-php",
+                    "description": "A PHP implementation of Google's phone number handling library.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Filtering and Validation",
+            "children": [
+                {
+                    "name": "Filterus",
+                    "uri": "https:\/\/github.com\/ircmaxell\/filterus",
+                    "description": "A simple PHP filtering library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Respect Validate",
+                    "uri": "https:\/\/github.com\/Respect\/Validation",
+                    "description": "A simple validation library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Valitron",
+                    "uri": "https:\/\/github.com\/vlucas\/valitron",
+                    "description": "Another validation library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Upload",
+                    "uri": "https:\/\/github.com\/codeguy\/Upload",
+                    "description": "A library for handling file uploads and validation.",
+                    "size": 2000
+                },
+                {
+                    "name": "DMS Filter",
+                    "uri": "https:\/\/github.com\/rdohms\/DMS-Filter",
+                    "description": "An annotation filtering library.",
+                    "size": 2000
+                },
+                {
+                    "name": "MetaYaml",
+                    "uri": "https:\/\/github.com\/romaricdrigon\/MetaYaml",
+                    "description": "A schema validation library that supports YAML, JSON and XML.",
+                    "size": 2000
+                },
+                {
+                    "name": "ISO-codes",
+                    "uri": "https:\/\/github.com\/ronanguilloux\/IsoCodes",
+                    "description": "A library for validating various ISO and ZIP codes (IBAN, SWIFT\/BIC, BBAN, VAT, SSN, UKNIN).",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " REST and API",
+            "children": [
+                {
+                    "name": "Apigility",
+                    "uri": "https:\/\/github.com\/zfcampus\/zf-apigility-skeleton",
+                    "description": "An API builder built with Zend Framework 2.",
+                    "size": 2000
+                },
+                {
+                    "name": "Hateoas",
+                    "uri": "https:\/\/github.com\/willdurand\/Hateoas",
+                    "description": "A HATEOAS REST web service library.",
+                    "size": 2000
+                },
+                {
+                    "name": "HAL",
+                    "uri": "https:\/\/github.com\/blongden\/hal",
+                    "description": "A Hypertext Application Language (HAL) builder library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Negotiation",
+                    "uri": "https:\/\/github.com\/willdurand\/Negotiation",
+                    "description": "A content negotiation library.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Caching",
+            "children": [
+                {
+                    "name": "Alternative PHP Cache (APC)",
+                    "uri": "http:\/\/www.php.net\/manual\/en\/book.apc.php",
+                    "description": "Open opcode cache for PHP.",
+                    "size": 2000
+                },
+                {
+                    "name": "Cache",
+                    "uri": "https:\/\/github.com\/doctrine\/cache",
+                    "description": "A caching library (part of Doctrine).",
+                    "size": 2000
+                },
+                {
+                    "name": "Stash",
+                    "uri": "https:\/\/github.com\/tedivm\/Stash",
+                    "description": "Another library for caching.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Data Structure and Storage",
+            "children": [
+                {
+                    "name": "Ardent",
+                    "uri": "https:\/\/github.com\/morrisonlevi\/Ardent",
+                    "description": "A library of data structures.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP Collections",
+                    "uri": "https:\/\/github.com\/schmittjoh\/php-collection",
+                    "description": "A simple collections library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Serializer",
+                    "uri": "https:\/\/github.com\/schmittjoh\/serializer",
+                    "description": "A library for serialising and de-serialising data.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP Object Storage",
+                    "uri": "https:\/\/github.com\/herrera-io\/php-object-storage",
+                    "description": "A library for object storage.",
+                    "size": 2000
+                },
+                {
+                    "name": "Fractal",
+                    "uri": "https:\/\/github.com\/php-loep\/fractal",
+                    "description": "A library for converting complex data structures to JSON output.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Notifications",
+            "children": [
+                {
+                    "name": "Nod",
+                    "uri": "https:\/\/github.com\/filp\/nod",
+                    "description": "A notification library (e.g., Growl).",
+                    "size": 2000
+                },
+                {
+                    "name": "Notificato",
+                    "uri": "https:\/\/github.com\/wrep\/notificato",
+                    "description": "A library for handling push notifications.",
+                    "size": 2000
+                },
+                {
+                    "name": "Notification Pusher",
+                    "uri": "https:\/\/github.com\/Ph3nol\/NotificationPusher",
+                    "description": "A standalone library for device push notifications.",
+                    "size": 2000
+                },
+                {
+                    "name": "Notificator",
+                    "uri": "https:\/\/github.com\/namshi\/notificator",
+                    "description": "A lightweight notification library.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Deployment",
+            "children": [
+                {
+                    "name": "Pomander",
+                    "uri": "https:\/\/github.com\/tamagokun\/pomander",
+                    "description": "A deployment tool for PHP applications.",
+                    "size": 2000
+                },
+                {
+                    "name": "Rocketeer",
+                    "uri": "https:\/\/github.com\/Anahkiasen\/rocketeer",
+                    "description": "A fast and easy deployer for the PHP world.",
+                    "size": 2000
+                },
+                {
+                    "name": "Envoy",
+                    "uri": "https:\/\/github.com\/laravel\/envoy",
+                    "description": "A tool to run SSH tasks with PHP.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Third Party APIs",
+            "children": [
+                {
+                    "name": "Amazon Web Service SDK",
+                    "uri": "https:\/\/github.com\/aws\/aws-sdk-php",
+                    "description": "The official PHP AWS SDK library.",
+                    "size": 2000
+                },
+                {
+                    "name": "S3 Stream Wrapper",
+                    "uri": "https:\/\/github.com\/gwkunze\/S3StreamWrapper",
+                    "description": "A stream wrapper library for Amazon S3.",
+                    "size": 2000
+                },
+                {
+                    "name": "Stripe",
+                    "uri": "https:\/\/github.com\/stripe\/stripe-php",
+                    "description": "The official Stripe PHP library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Campaign Monitor",
+                    "uri": "http:\/\/campaignmonitor.github.com\/createsend-php\/",
+                    "description": "The official Campaign Monitor PHP library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Digital Ocean",
+                    "uri": "https:\/\/github.com\/toin0u\/DigitalOcean",
+                    "description": "A library to interface with the Digital Ocean API.",
+                    "size": 2000
+                },
+                {
+                    "name": "Github",
+                    "uri": "https:\/\/github.com\/dsyph3r\/github-api3-php",
+                    "description": "A library to interface with the Github API.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP Github API",
+                    "uri": "https:\/\/github.com\/KnpLabs\/php-github-api",
+                    "description": "Another library to interface with the Github API.",
+                    "size": 2000
+                },
+                {
+                    "name": "Twitter OAuth",
+                    "uri": "https:\/\/github.com\/widop\/twitter-oauth",
+                    "description": "A library to interface with Twitter's OAuth workflow.",
+                    "size": 2000
+                },
+                {
+                    "name": "Twitter REST",
+                    "uri": "https:\/\/github.com\/widop\/twitter-rest",
+                    "description": "A library to interact with Twitter's REST API.",
+                    "size": 2000
+                },
+                {
+                    "name": "Dropbox SDK",
+                    "uri": "https:\/\/github.com\/dropbox\/dropbox-sdk-php",
+                    "description": "The official PHP Dropbox SDK library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Twilio",
+                    "uri": "https:\/\/github.com\/twilio\/twilio-php",
+                    "description": "The official Twilio PHP REST API.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Extensions",
+            "children": [
+                {
+                    "name": "PHP CPP",
+                    "uri": "http:\/\/www.php-cpp.com\/",
+                    "description": "A C++ library for developing PHP extensions.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Miscellaneous",
+            "children": [
+                {
+                    "name": "Spork",
+                    "uri": "https:\/\/github.com\/kriswallsmith\/spork",
+                    "description": "A process forking library.",
+                    "size": 2000
+                },
+                {
+                    "name": "JSON Lint",
+                    "uri": "https:\/\/github.com\/Seldaek\/jsonlint",
+                    "description": "A JSON lint utility.",
+                    "size": 2000
+                },
+                {
+                    "name": "JSONPCallbackValidator",
+                    "uri": "https:\/\/github.com\/willdurand\/JsonpCallbackValidator",
+                    "description": "A library for validating JSONP callbacks.",
+                    "size": 2000
+                },
+                {
+                    "name": "Pagerfanta",
+                    "uri": "https:\/\/github.com\/whiteoctober\/Pagerfanta",
+                    "description": "A pagination library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Ruler",
+                    "uri": "https:\/\/github.com\/bobthecow\/Ruler",
+                    "description": "A simple stateless production rules engine.",
+                    "size": 2000
+                },
+                {
+                    "name": "LiteCQRS",
+                    "uri": "https:\/\/github.com\/beberlei\/litecqrs-php",
+                    "description": "A CQRS (Command Query Responsibility Separation) library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Sslurp",
+                    "uri": "https:\/\/github.com\/EvanDotPro\/Sslurp",
+                    "description": "A library that makes dealing with SSL suck less.",
+                    "size": 2000
+                },
+                {
+                    "name": "Metrics",
+                    "uri": "https:\/\/github.com\/beberlei\/metrics",
+                    "description": "A simple metrics API library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Sabre VObject",
+                    "uri": "https:\/\/github.com\/evert\/sabre-vobject",
+                    "description": "A library for parsing VCard and iCalendar objects.",
+                    "size": 2000
+                },
+                {
+                    "name": "Annotations",
+                    "uri": "https:\/\/github.com\/doctrine\/annotations",
+                    "description": "An annotations library (part of Doctrine).",
+                    "size": 2000
+                },
+                {
+                    "name": "Whoops",
+                    "uri": "https:\/\/github.com\/filp\/whoops",
+                    "description": "A pretty error handling library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Finite",
+                    "uri": "http:\/\/yohan.giarel.li\/Finite",
+                    "description": "A simple PHP finite state machine.",
+                    "size": 2000
+                },
+                {
+                    "name": "LadyBug",
+                    "uri": "https:\/\/github.com\/raulfraile\/Ladybug",
+                    "description": "A dumper library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Plum",
+                    "uri": "https:\/\/github.com\/aerialls\/Plum",
+                    "description": "A deployer library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Procrastinator",
+                    "uri": "https:\/\/github.com\/lstrojny\/Procrastinator",
+                    "description": "A library for running time consuming tasks.",
+                    "size": 2000
+                },
+                {
+                    "name": "Compose",
+                    "uri": "https:\/\/github.com\/igorw\/compose",
+                    "description": "A function composition library.",
+                    "size": 2000
+                },
+                {
+                    "name": "SuperClosure",
+                    "uri": "https:\/\/github.com\/jeremeamia\/super_closure",
+                    "description": "A library that allows Closures to be serialized.",
+                    "size": 2000
+                },
+                {
+                    "name": "Jumper",
+                    "uri": "https:\/\/github.com\/kakawait\/Jumper",
+                    "description": "A remote service executor library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Underscore",
+                    "uri": "http:\/\/anahkiasen.github.io\/underscore-php\/",
+                    "description": "A PHP port of the Underscore JS library.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP PassBook",
+                    "uri": "https:\/\/github.com\/eymengunay\/php-passbook",
+                    "description": "A PHP library for iOS PassBook.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP Expression",
+                    "uri": "https:\/\/github.com\/Kitano\/php-expression",
+                    "description": "A PHP expression language.",
+                    "size": 2000
+                },
+                {
+                    "name": "RMT",
+                    "uri": "https:\/\/github.com\/liip\/RMT",
+                    "description": "A library for versioning and releasing software.",
+                    "size": 2000
+                },
+                {
+                    "name": "Wise",
+                    "uri": "https:\/\/github.com\/herrera-io\/php-wise",
+                    "description": "A configuration manager.",
+                    "size": 2000
+                },
+                {
+                    "name": "Opengraph",
+                    "uri": "https:\/\/github.com\/euskadi31\/Opengraph",
+                    "description": "An opengraph library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Essence",
+                    "uri": "https:\/\/github.com\/felixgirault\/essence",
+                    "description": "A library for extracting web media.",
+                    "size": 2000
+                },
+                {
+                    "name": "Embera",
+                    "uri": "https:\/\/github.com\/mpratt\/Embera",
+                    "description": "An Oembed consumer library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Graphviz",
+                    "uri": "https:\/\/github.com\/alexandresalome\/graphviz",
+                    "description": "A Graphviz library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Monad PHP",
+                    "uri": "https:\/\/github.com\/ircmaxell\/monad-php",
+                    "description": "A simple Monad library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Flux",
+                    "uri": "https:\/\/github.com\/selvinortiz\/flux",
+                    "description": "A regular expression building library.",
+                    "size": 2000
+                },
+                {
+                    "name": "Patchwork",
+                    "uri": "http:\/\/antecedent.github.io\/patchwork\/",
+                    "description": "A library for redefining userland functions.",
+                    "size": 2000
+                },
+                {
+                    "name": "Galapagos",
+                    "uri": "https:\/\/github.com\/igorw\/galapagos",
+                    "description": "Evolutionary language transformation.",
+                    "size": 2000
+                },
+                {
+                    "name": "Design Patterns PHP",
+                    "uri": "https:\/\/github.com\/domnikl\/DesignPatternsPHP",
+                    "description": "A repository of software patterns implemented in PHP.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHPCR",
+                    "uri": "https:\/\/github.com\/phpcr\/phpcr",
+                    "description": "A PHP port of the Java Content Repository (JCR).",
+                    "size": 2000
+                },
+                {
+                    "name": "Functional PHP",
+                    "uri": "https:\/\/github.com\/lstrojny\/functional-php",
+                    "description": "A functional programming library.",
+                    "size": 2000
+                },
+                {
+                    "name": "ClassPreloader",
+                    "uri": "https:\/\/github.com\/mtdowling\/ClassPreloader",
+                    "description": "A library for optimising autoloading.",
+                    "size": 2000
+                },
+                {
+                    "name": "Lib Country",
+                    "uri": "https:\/\/github.com\/phine\/lib-country",
+                    "description": "A library for country and subdivision data.",
+                    "size": 2000
+                },
+                {
+                    "name": "Lib Accessor",
+                    "uri": "https:\/\/github.com\/phine\/lib-accessor",
+                    "description": "A library for simplifying accessors.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHPStack",
+                    "uri": "http:\/\/dunkels.com\/adam\/phpstack\/",
+                    "description": "A TCP\/IP stack proof of concept written in PHP.",
+                    "size": 2000
+                },
+                {
+                    "name": "Nmap",
+                    "uri": "https:\/\/github.com\/willdurand\/nmap",
+                    "description": "A PHP wrapper around [Nmap](http:\/\/nmap.org\/).",
+                    "size": 2000
+                },
+                {
+                    "name": "Code Mover",
+                    "uri": "https:\/\/github.com\/dantleech\/code-mover",
+                    "description": "A library for moving code.",
+                    "size": 2000
+                },
+                {
+                    "name": "Iter",
+                    "uri": "https:\/\/github.com\/nikic\/iter",
+                    "description": "A library that provides iteration primitives using generators.",
+                    "size": 2000
+                },
+                {
+                    "name": "Lambda PHP",
+                    "uri": "https:\/\/github.com\/igorw\/lambda-php",
+                    "description": "A Lambda calculus interpreter in PHP.",
+                    "size": 2000
+                },
+                {
+                    "name": "Country List",
+                    "uri": "https:\/\/github.com\/umpirsky\/country-list",
+                    "description": "A list of all countries with names and ISO 3166-1 codes.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP-GPIO",
+                    "uri": "https:\/\/github.com\/ronanguilloux\/php-gpio",
+                    "description": "A library for playing with the Raspberry PI's GPIO pins.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " PHP Installation",
+            "children": [
+                {
+                    "name": "HomeBrew",
+                    "uri": "http:\/\/mxcl.github.com\/homebrew\/",
+                    "description": "A package manager for OSX.",
+                    "size": 2000
+                },
+                {
+                    "name": "HomeBrew PHP",
+                    "uri": "https:\/\/github.com\/josegonzalez\/homebrew-php",
+                    "description": "A PHP tap for HomeBrew.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP OSX",
+                    "uri": "http:\/\/php-osx.liip.ch\/",
+                    "description": "A PHP installer for OSX.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP Brew",
+                    "uri": "https:\/\/github.com\/c9s\/phpbrew",
+                    "description": "A PHP version manager and installer.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP Env",
+                    "uri": "https:\/\/github.com\/CHH\/phpenv",
+                    "description": "Another PHP version manager.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP Switch",
+                    "uri": "https:\/\/github.com\/jubianchi\/phpswitch",
+                    "description": "Another version manager.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP Build",
+                    "uri": "https:\/\/github.com\/CHH\/php-build",
+                    "description": "Another PHP version installer.",
+                    "size": 2000
+                },
+                {
+                    "name": "VirtPHP",
+                    "uri": "http:\/\/virtphp.org\/",
+                    "description": "A tool for creating and managing isolated PHP environments.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Development Environment",
+            "children": [
+                {
+                    "name": "Vagrant",
+                    "uri": "http:\/\/www.vagrantup.com\/",
+                    "description": "A portable development environment utility.",
+                    "size": 2000
+                },
+                {
+                    "name": "Ansible",
+                    "uri": "http:\/\/www.ansibleworks.com\/",
+                    "description": "A radically simple orchestration framework.",
+                    "size": 2000
+                },
+                {
+                    "name": "Puppet",
+                    "uri": "http:\/\/puppetlabs.com\/",
+                    "description": "A server automation framework and application.",
+                    "size": 2000
+                },
+                {
+                    "name": "PuPHPet",
+                    "uri": "https:\/\/puphpet.com\/",
+                    "description": "A web tool for building PHP development virtual machines.",
+                    "size": 2000
+                },
+                {
+                    "name": "Protobox",
+                    "uri": "http:\/\/getprotobox.com\/",
+                    "description": "Another web tool for building PHP development virtual machines.",
+                    "size": 2000
+                },
+                {
+                    "name": "Phansible",
+                    "uri": "http:\/\/phansible.com\/",
+                    "description": "A web tool for building PHP development virtual machines with Ansible.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Virtual Machines",
+            "children": [
+                {
+                    "name": "HipHop PHP",
+                    "uri": "https:\/\/github.com\/facebook\/hiphop-php",
+                    "description": "A Virtual Machine, Runtime and JIT for PHP by Facebook.",
+                    "size": 2000
+                },
+                {
+                    "name": "HippyVM",
+                    "uri": "http:\/\/hippyvm.com\/",
+                    "description": "Another PHP virtual machine.",
+                    "size": 2000
+                },
+                {
+                    "name": "Hack",
+                    "uri": "http:\/\/hacklang.org\/",
+                    "description": "A programming language for [HHVM](https:\/\/github.com\/facebook\/hiphop-php) that interoperates seamlessly with PHP.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Web Applications",
+            "children": [
+                {
+                    "name": "3V4L",
+                    "uri": "http:\/\/3v4l.org\/",
+                    "description": "An online PHP shell.",
+                    "size": 2000
+                },
+                {
+                    "name": "DBV",
+                    "uri": "http:\/\/dbv.vizuina.com\/",
+                    "description": "A database version control application.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP Queue",
+                    "uri": "https:\/\/github.com\/CoderKungfu\/php-queue",
+                    "description": "An application for managing queueing backends.",
+                    "size": 2000
+                },
+                {
+                    "name": "Composer as a Service",
+                    "uri": "http:\/\/composer.borreli.com\/",
+                    "description": "A tool for downloading Composer packages as a zip file.",
+                    "size": 2000
+                },
+                {
+                    "name": "MailCatcher",
+                    "uri": "https:\/\/github.com\/sj26\/mailcatcher",
+                    "description": "A web tool for capturing and viewing emails.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " PHP Websites",
+            "children": [
+                {
+                    "name": "PHP The Right Way",
+                    "uri": "http:\/\/www.phptherightway.com\/",
+                    "description": "A PHP best practice quick reference guide.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP Best Practices",
+                    "uri": "http:\/\/phpbestpractices.org\/",
+                    "description": "A PHP best practice guide.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP Weekly",
+                    "uri": "http:\/\/phpweekly.info\/archive\/",
+                    "description": "A weekly PHP newsletter.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP Security",
+                    "uri": "http:\/\/phpsecurity.readthedocs.org\/en\/latest\/index.html",
+                    "description": "A guide to PHP security.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP FIG",
+                    "uri": "http:\/\/www.php-fig.org\/",
+                    "description": "The PHP Framework Interoperability Group.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP UG",
+                    "uri": "http:\/\/php.ug",
+                    "description": "A website to help people locate their nearest PHP user group (UG).",
+                    "size": 2000
+                },
+                {
+                    "name": "Seven PHP",
+                    "uri": "http:\/\/7php.com\/",
+                    "description": "A website that interviews members of the PHP community.",
+                    "size": 2000
+                },
+                {
+                    "name": "Nomad PHP",
+                    "uri": "http:\/\/nomadphp.com\/",
+                    "description": "A online PHP learning resource.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Other Websites",
+            "children": [
+                {
+                    "name": "The Open Web Application Security Project (OWASP)",
+                    "uri": "https:\/\/www.owasp.org\/index.php\/Main_Page",
+                    "description": "An open software security community.",
+                    "size": 2000
+                },
+                {
+                    "name": "WebSec IO",
+                    "uri": "http:\/\/websec.io\/",
+                    "description": "A web security community resource.",
+                    "size": 2000
+                },
+                {
+                    "name": "Web Advent",
+                    "uri": "http:\/\/webadvent.org",
+                    "description": "An advent calendar for web developers.",
+                    "size": 2000
+                },
+                {
+                    "name": "Semantic Versioning",
+                    "uri": "http:\/\/semver.org\/",
+                    "description": "A website explaining semantic versioning.",
+                    "size": 2000
+                },
+                {
+                    "name": "Atlassian Git Tutorials",
+                    "uri": "https:\/\/www.atlassian.com\/git",
+                    "description": "A series of Git tutorials.",
+                    "size": 2000
+                },
+                {
+                    "name": "Hg Init",
+                    "uri": "http:\/\/hginit.com\/",
+                    "description": "A series of Mercurial tutorials.",
+                    "size": 2000
+                },
+                {
+                    "name": "Servers for Hackers",
+                    "uri": "http:\/\/serversforhackers.com\/",
+                    "description": "A newsletter about server management.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " PHP Books",
+            "children": [
+                {
+                    "name": "Scaling PHP Applications",
+                    "uri": "http:\/\/www.scalingphpbook.com",
+                    "description": "An ebook about scaling PHP applications by Steve Corona.",
+                    "size": 2000
+                },
+                {
+                    "name": "The Grumpy Programmer's Guide to Building Testable PHP Applications",
+                    "uri": "https:\/\/leanpub.com\/grumpy-testing",
+                    "description": "A book about building testing PHP applications by Chris Hartjes.",
+                    "size": 2000
+                },
+                {
+                    "name": "Grumpy PHPUnit",
+                    "uri": "https:\/\/leanpub.com\/grumpy-phpunit",
+                    "description": "A book about unit testing with PHPUnit by Chris Hartjes.",
+                    "size": 2000
+                },
+                {
+                    "name": "Mastering Object-Orientated PHP",
+                    "uri": "http:\/\/www.brandonsavage.net",
+                    "description": "A book about object-orientated PHP by Brandon Savage.",
+                    "size": 2000
+                },
+                {
+                    "name": "Signaling PHP",
+                    "uri": "https:\/\/leanpub.com\/signalingphp",
+                    "description": "A book about catching PCNTL signals in CLI scripts by Cal Evans.",
+                    "size": 2000
+                },
+                {
+                    "name": "Securing PHP: Core Concepts",
+                    "uri": "https:\/\/leanpub.com\/securingphp-coreconcepts",
+                    "description": "A book about common security terms and practices for PHP by Chris Cornutt.",
+                    "size": 2000
+                },
+                {
+                    "name": "Modernising Legacy Applications in PHP",
+                    "uri": "https:\/\/leanpub.com\/mlaphp",
+                    "description": "A book about modernising legacy PHP applications by Paul M. Jones.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " Other Books",
+            "children": [
+                {
+                    "name": "The Linux Command Line",
+                    "uri": "http:\/\/linuxcommand.org\/tlcl.php",
+                    "description": "A book about the Linux command line by William Shotts.",
+                    "size": 2000
+                },
+                {
+                    "name": "Understanding Computation",
+                    "uri": "http:\/\/computationbook.com",
+                    "description": "A book about computation theory by Tom Stuart.",
+                    "size": 2000
+                },
+                {
+                    "name": "The Tangled Web \u2014 Securing Web Applications",
+                    "uri": "http:\/\/www.amazon.ca\/The-Tangled-Web-Securing-Applications\/dp\/1593273886",
+                    "description": "A book about securing web applications by Michal Zalewski.",
+                    "size": 2000
+                },
+                {
+                    "name": "Elasticsearch: The Definitive Guide",
+                    "uri": "http:\/\/www.elasticsearch.org\/guide\/",
+                    "description": "A guide to working with Elasticsearch by Clinton Gormley and Zachary Tong.",
+                    "size": 2000
+                },
+                {
+                    "name": "Eloquent JavaScript",
+                    "uri": "http:\/\/eloquentjavascript.net\/",
+                    "description": "A book about JavaScript programming by Marijn Haverbeke.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " PHP Videos",
+            "children": [
+                {
+                    "name": "Taking PHP Seriously",
+                    "uri": "http:\/\/www.infoq.com\/presentations\/php-history",
+                    "description": "A talk outlining PHP's strengths by Keith Adams of Facebook.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP Town Hall",
+                    "uri": "http:\/\/phptownhall.com\/",
+                    "description": "A casual PHP podcast by Ben Edmunds and Phil Sturgeon.",
+                    "size": 2000
+                },
+                {
+                    "name": "Programming with Anthony",
+                    "uri": "http:\/\/www.youtube.com\/playlist?list=PLM-218uGSX3DQ3KsB5NJnuOqPqc5CW2kW",
+                    "description": "A video series by Anthony Ferrara.",
+                    "size": 2000
+                }
+            ]
+        },
+        {
+            "name": " PHP Reading",
+            "children": [
+                {
+                    "name": "Create Your Own PHP Framework",
+                    "uri": "http:\/\/fabien.potencier.org\/article\/50\/create-your-own-framework-on-top-of-the-symfony2-components-part-1",
+                    "description": "A series of articles on how to make your own PHP framework by Fabien Potencier.",
+                    "size": 2000
+                },
+                {
+                    "name": "Seven Ways to Screw Up BCrypt",
+                    "uri": "http:\/\/blog.ircmaxell.com\/2012\/12\/seven-ways-to-screw-up-bcrypt.html",
+                    "description": "An article about correct BCrypt implementation.",
+                    "size": 2000
+                },
+                {
+                    "name": "Preventing CSRF Attacks",
+                    "uri": "http:\/\/blog.ircmaxell.com\/2013\/02\/preventing-csrf-attacks.html",
+                    "description": "An article on preventing CSRF attacks.",
+                    "size": 2000
+                },
+                {
+                    "name": "Don't Worry About BREACH",
+                    "uri": "http:\/\/blog.ircmaxell.com\/2013\/08\/dont-worry-about-breach.html",
+                    "description": "An article about the BREACH hack and CSRF tokens.",
+                    "size": 2000
+                },
+                {
+                    "name": "On PHP 5.3, Lamda Functions and Closures",
+                    "uri": "http:\/\/fabien.potencier.org\/article\/17\/on-php-5-3-lambda-functions-and-closures",
+                    "description": "An article about lambda functions and closures.",
+                    "size": 2000
+                },
+                {
+                    "name": "Use Env",
+                    "uri": "http:\/\/seancoates.com\/blogs\/use-env",
+                    "description": "An article about using the unix environment helper.",
+                    "size": 2000
+                },
+                {
+                    "name": "Composer Primer",
+                    "uri": "http:\/\/daylerees.com\/composer-primer",
+                    "description": "A Composer primer.",
+                    "size": 2000
+                },
+                {
+                    "name": "Composer Versioning",
+                    "uri": "https:\/\/igor.io\/2013\/01\/07\/composer-versioning.html",
+                    "description": "An article about Composer versioning.",
+                    "size": 2000
+                },
+                {
+                    "name": "Composer Stability Flags",
+                    "uri": "https:\/\/igor.io\/2013\/02\/07\/composer-stability-flags.html",
+                    "description": "An article about Composer stability flags.",
+                    "size": 2000
+                },
+                {
+                    "name": "Innocent Villagefolk or a Pillagin\u2019 Pirate?",
+                    "uri": "http:\/\/blog.astrumfutura.com\/2012\/04\/php-innocent-villagefolk-or-a-pillagin-pirate\/",
+                    "description": "An article about PHP taking ideas from other language.",
+                    "size": 2000
+                },
+                {
+                    "name": "Predicting Random Numbers in PHP",
+                    "uri": "http:\/\/blog.astrumfutura.com\/2013\/03\/predicting-random-numbers-in-php-its-easier-than-you-think\/",
+                    "description": "An article about generating random numbers.",
+                    "size": 2000
+                },
+                {
+                    "name": "A 20 Point List for Preventing XSS in PHP",
+                    "uri": "http:\/\/blog.astrumfutura.com\/2013\/04\/20-point-list-for-preventing-cross-site-scripting-in-php\/",
+                    "description": "An article about preventing XSS.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP Sucks! But I Like It!",
+                    "uri": "http:\/\/blog.ircmaxell.com\/2012\/04\/php-sucks-but-i-like-it.html",
+                    "description": "An article about the pros and cons of PHP.",
+                    "size": 2000
+                },
+                {
+                    "name": "PHP Is Much Better Than You Think",
+                    "uri": "http:\/\/fabien.potencier.org\/article\/64\/php-is-much-better-than-you-think",
+                    "description": "An article about the PHP language and ecosystem.",
+                    "size": 2000
+                }
+            ]
+        }
+    ],
+    "description": ""
+}

@@ -1,105 +1,47 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <title>PHP Cartography</title>
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <style>
-            body {
-                font-family:Arial, Verdana, sans-serif;
-                margin:0;
-                text-align:center;
-            }
-            .navbar {
-                font-size:0.8em;
-                background:#EEE;
-                border-bottom:1px solid #CCC;
-                margin-bottom:2px;
-                text-align:center;
-                position:fixed;
-                height:15px;
-                display:block;
-                width:100%;
-            }
-            .navbar .btn-zoom {
-                color:#FFF;
-                text-decoration:none;
-                background:#333;
-                padding:0 2px;
-            }
-            .navlinks {
-                font-size:0.8em;
-                position:fixed;
-                bottom:0;
-                left:0;
-                background:#333;
-                color:#FFF;
-                width:100%;
-                padding:10px 0;
-            }
-            .navlinks a {
-                color:#FFF;
-            }
-
-            #view {
-                margin:25px auto 0;
-            }
-        </style>
+        <title>Exploring PHP...</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+        <link type="text/css" rel="stylesheet" href="css/styles.css"/>
+        <link type="text/css" rel="stylesheet" href="css/d3.css"/>
+        <meta name="description" content="Map of awesome PHP tools">
+        <meta charset="utf-8">
+        <meta http-equiv="content-language" content="en-EN" />
+        <meta name="robots" content="all" />
+        <link rel="author" href="mailto:contact@alterway.fr" xml:lang="fr-FR" title="Alter Way" />
     </head>
     <body>
 
-        <div class="navbar">
-            <a class="btn-zoom" href="#" data-zoom="100" >Zoom In</a> - <a class="btn-zoom" data-zoom="-100" href="#" >Zoom Out</a> 
+    <nav class="main-menu">
+        <div class="page">
+            <ul>
+                <li><a href="https://github.com/ziadoz/awesome-php">Add your tool</a></li>
+                <li><a class="sponsor" href="http://www.alterway.fr">Sponsor</a></li>
+            </ul>
         </div>
-        <div class="navlinks">
-            <a href="#">Contribute on Github</a>, by <a href="http://www.alterway.fr">Alter Way</a>
+    </nav>
+
+    <section class="page">
+        <h1>Exploring PHP...</h1>
+        <p>
+            Yes, you can explore the PHP universe.
+        </p>
+        <p>
+            Thank's to Community, we have an excellent <a href="https://github.com/ziadoz/awesome-php">list of awesome PHP tools</a>. This map is a way to (re)discover them.
+        </p>
+        <p>
+            Note that this map is updated every day.
+        </p>
+    </section>
+    <section class="odd">
+        <div class="page">
+            <div id="svg"></div>
         </div>
+    </section>
 
-        <object id="view" data="image.svg" type="image/svg+xml" width="960px">
-            <img src="image.jpg" alt="cartographie des outils PHP" />
-        </object>
-
-        <script type="text/javascript">
-            $(function() {
-                $('.btn-zoom').mousehold(function() {
-                    $('#view').width(parseInt($('#view').width()) + $(this).data('zoom'));
-                });
-            });
-            
-            
-            // from http://remysharp.com/demo/mousehold.js
-            jQuery.fn.mousehold = function(timeout, f) {
-                if (timeout && typeof timeout == 'function') {
-                    f = timeout;
-                    timeout = 100;
-                }
-                if (f && typeof f == 'function') {
-                    var timer = 0;
-                    var fireStep = 0;
-                    return this.each(function() {
-                        jQuery(this).mousedown(function() {
-                            fireStep = 1;
-                            var ctr = 0;
-                            var t = this;
-                            timer = setInterval(function() {
-                                ctr++;
-                                f.call(t, ctr);
-                                fireStep = 2;
-                            }, timeout);
-                        })
-
-                        clearMousehold = function() {
-                            clearInterval(timer);
-                            if (fireStep == 1) f.call(this, 1);
-                            fireStep = 0;
-                        }
-			
-                        jQuery(this).mouseout(clearMousehold);
-                        jQuery(this).mouseup(clearMousehold);
-                    })
-                }
-            }
-
-            
-            
-        </script>
+    <script type="text/javascript" src="js/d3.min.js"></script>
+    <script type="text/javascript" src="js/d3.tip.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
     </body>
 </html>

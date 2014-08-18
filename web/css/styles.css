@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "lato-light";
+    src: url('../fonts/lato-light.ttf');
+}
+@font-face {
+    font-family: "lato-blackitalic";
+    src: url('../fonts/lato-blackitalic.ttf');
+}
+
+/* ---- layout ---- */
+body {
+    margin: 0;
+    font-size: 100%;
+    color: #3c4045;
+    background-color: #ffffff;
+    font-family: 'lato-light', Arial, 'Liberation Sans', sans-serif;
+    line-height: 1.4;
+}
+.page {
+    width:960px;
+    text-align:left;
+    margin: 0 auto;
+}
+.odd {
+    background-color:#F7F7F7;
+}
+
+
+
+
+/* ---- typo ---- */
+h1 {
+    font-family: 'lato-blackitalic';
+    font-size: 2.5em;
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+a, a:visited, a:hover {
+    color: #ff0099;
+}
+
+
+
+/** ---- general ---- */
+.sponsor, .sponsor:hover {
+    background-color:#ff0099 !important;
+}
+
+
+/* ---- menu ---- */
+.main-menu {
+    background:#3C4045;
+    font-size:62%;
+}
+.main-menu ul {
+    margin: 0;
+    list-style: none;
+}
+.main-menu li {
+    border-left:1px solid #6d7074;
+    display:inline-block;
+}
+.main-menu a {
+    font-size:1.4em;
+    color:#FFF;
+    text-decoration: none;
+    display:inline-block;
+    padding: 0 14px 0 14px;
+    line-height: 2em;
+}
+.main-menu a:hover {
+    background:#6d7074;
+}
+.main-menu .page {
+    text-align:right;
+}
