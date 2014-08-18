@@ -27,7 +27,7 @@ window.onload = function() {
             if(d == node && !d.children) {
                 return "click to open website of " + d.name + "<br>" + d.description;
             }
-            return "<strong>" + d.name + "</strong><br />" + d.description;
+            return "<strong>" + d.name + "</strong><br />" + (d.description ? d.description : '');
         })
     vis.call(tipCirclePack);
     var currentZoom = 0;
