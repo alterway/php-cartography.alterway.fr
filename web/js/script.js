@@ -9,7 +9,7 @@ window.onload = function() {
 
     var pack = d3.layout.pack()
         .size([r, r])
-        .value(function(d) { return d.size; })
+        .value(function(d) { return 1; /* We cannot use the following code for the moment: return d.size; */ })
 
 
 
@@ -42,18 +42,17 @@ window.onload = function() {
             .attr("class", function(d) { return d.children ? "parent" : "child"; })
             .attr("cx", function(d) { return d.x; })
             .attr("cy", function(d) { return d.y; })
-            .attr("r", function(d) {return d.r; })
+            .attr("r", function(d) { return d.r; })
             .on("click", function(d) {
                 if(d == node && !d.children) {
                     var win = window.open(d.uri, '_blank');
                     win.focus();
-//                    document.location.href = d.uri;
                 }
                 return zoom(node == d ? root : d);
 
             })
 
-            // jeff
+            // aw
             .attr("rInit", function(d, i) { return d.r })
             .on('mouseover', function (d,i) {
                 tipCirclePack.show(d)                 ;
@@ -73,7 +72,6 @@ window.onload = function() {
             .attr("dy", ".35em")
             .attr("text-anchor", "middle")
             .style("opacity", function(d) {return d.depth == currentZoom + 1 ? 1 : 0;  })
-    //                .style("opacity", function(d) { return d.r > 20 ? 1 : 0; })
             .text(function(d) {
                 return d.name;
             })
@@ -98,7 +96,6 @@ window.onload = function() {
         t.selectAll("text")
             .attr("x", function(d) { return x(d.x); })
             .attr("y", function(d) { return y(d.y); })
-    //                .style("opacity", function(d) { return k * d.r > 20 ? 1 : 0; });
             .style("opacity", function(d) { return d.depth <= currentZoom + 1 ? 1 : 0; });
 
         node = d;
