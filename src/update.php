@@ -20,10 +20,11 @@ foreach($lines as $line) {
             'name' => $name
             , 'uri' => $uri
             , 'description' => $descr
-            , 'size' => 2000
+            , 'size' => 1
         );
     }
 }
+
 
 $json = json_encode($result, JSON_PRETTY_PRINT);
 $json = trim($json, '[]');
