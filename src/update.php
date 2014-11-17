@@ -28,4 +28,4 @@ foreach($lines as $line) {
 
 $json = json_encode($result, JSON_PRETTY_PRINT);
 $json = trim($json, '[]');
-file_put_contents(__DIR__.'/../web/data.json', $json);
+file_put_contents(__DIR__.'/../data.json', $json);
