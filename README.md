@@ -4,7 +4,7 @@ This tool generate a tree of tools, based on the [ziadoz list](https://github.co
 
 ## Usage
 
-+ add a vhost on the `web` directory.
++ add a vhost on the `./` directory.
 + configure cron to run `src/update.php` every day (example: `0 0 0	* *	*	/path/src/update.php`)
 
 ### If you want to use it with Travis as PHP server
