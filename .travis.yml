@@ -1,0 +1,8 @@
+language: php
+php:
+  - 5.4
+script: php src/update.php
+
+after_deploy:
+- "echo 'Deployment'"
+- ./deploy-to-github.sh
