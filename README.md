@@ -13,10 +13,11 @@ This tool generate a tree of tools, based on the [ziadoz list](https://github.co
 + Create token in Github (`AccountSettings -> Applications -> Click 'Generate New Token'`)
 + Configure secret env variables with this token:
 
-
-    travis encrypt GH_TOKEN=yourpersonalaccesstoken --add --add env.matrix
-    travis encrypt GIT_NAME=name --add --add env.matrix
-    travis encrypt GH_REF=git@github.com:alterway/php-cartography.alterway.fr.git --add --add env.matrix
+```bash
+travis encrypt GH_TOKEN=yourpersonalaccesstoken --add --add env.matrix
+travis encrypt GIT_NAME=name --add --add env.matrix
+travis encrypt GH_REF=git@github.com:alterway/php-cartography.alterway.fr.git --add --add env.matrix
+```
     
 + And of course enable Travis for this repository :)   
 
